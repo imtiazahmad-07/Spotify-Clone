@@ -36,3 +36,35 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.3rem;
 }
+
+.container{
+    min-height: 74vh;
+    background-color:  black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myProgressBar{
+    width: 80vw;
+    ;
+
+}
+
+.icons{
+    margin-top: 34px ;
+}
+.icons i {
+    cursor: pointer;
+}
