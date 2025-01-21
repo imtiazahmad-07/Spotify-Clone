@@ -85,14 +85,20 @@ nav ul li{
    border-radius: 43px;
   
 }
-.songItemsContainer{
 
-}
 .timeStamp{
     margin: 0 23px;
 }
 .timeStamp i{
     cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 
 .icons{
